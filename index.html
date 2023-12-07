@@ -2,16 +2,16 @@
 <html lang="en">
     <head>
         <meta charset="utf-8" />
-        <title>HTML5 Games</title>
+        <title>CRGames</title>
         <link rel="stylesheet" href="style.css" />
     </head>
     <body>
         <header>
-            <h1 id="title">Bounce</h1>
+            <h1 id="title">CRGames</h1>
             <p id="expand">Expand for more games.</p>
-            <p id="select">Select a game.</p>
+            <p id="select">Select a game.BY JadenXKB </p>
             <ul id="nav">
-                <li><a href="#bounce" data-game="bounce" class="selected">Bounce</a></li>
+                <li><a href="#bounce" data-game="bounce" class="selected">CRGames</a></li>
                 <li><a href="#snake" data-game="snake">Snake</a></li>
                 <li><a href="#tetris" data-game="tetris">Tetris</a></li>
                 <li><a href="#defender" data-game="defender">Defender</a></li>
@@ -35,7 +35,7 @@
             window.addEventListener("load", () => {
                 "use strict";
                 const header = document.querySelector("header");
-                play(location.hash.substring(1) || "bounce");
+                play(location.hash.substring(1) || "CrazyGames");
                 document.querySelector("#nav").addEventListener("click", (e) => {
                     if (e.target.dataset.game) {
                         play(e.target.dataset.game);
